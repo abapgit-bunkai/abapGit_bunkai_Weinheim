@@ -16,8 +16,6 @@ ENDCLASS.
 
 CLASS lcl_bunkai IMPLEMENTATION.
 
-
-
   METHOD show_karlsruhe.
 
     cl_demo_output=>display_html(
