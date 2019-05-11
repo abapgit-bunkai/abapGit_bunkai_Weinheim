@@ -12,5 +12,6 @@ REPORT ZBUNKAI_ANIL.
 cl_demo_output=>display_html(
     NEW zmarkdown( )->text(
             |Hello **abapGit bunkai 11.05.19**!\n\n|
-         && |Hello Weinheim!|
+         && |Hello Weinheim!\n\n|
+         && |Gruezi, Zürich...\n\n|
          && |Hello World!| ) ).
