@@ -3,7 +3,7 @@
 *&---------------------------------------------------------------------*
 *&
 *&---------------------------------------------------------------------*
-REPORT zbunkai_christian.
+REPORT zbunkai_soeren.
 
 
 CLASS lcl_bunkai DEFINITION.
@@ -32,12 +32,6 @@ CLASS lcl_bunkai IMPLEMENTATION.
 ENDCLASS.
 
 START-OF-SELECTION.
-
-  cl_demo_output=>display_html(
-      NEW zmarkdown( )->text(
-              |Hello **abapGit bunkai**!\n\n|
-           && |Hello Weinheim!| ) ).
-
 
   DATA(lo_bunkai) = NEW lcl_bunkai( ).
 
