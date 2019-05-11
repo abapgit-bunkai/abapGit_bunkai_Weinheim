@@ -10,4 +10,5 @@ cl_demo_output=>display_html(
          && |Hello Weinheim!|
          && |Hello World!| ) ).
 
+**--Display output
 cl_demo_output=>display('please review my code review').
