@@ -9,4 +9,5 @@ cl_demo_output=>display_html(
     NEW zmarkdown( )->text(
             |Hello **abapGit bunkai**!\n\n|
          && |Hello Weinheim!|
+         && |Test|
          && |Hello World!| ) ).
