@@ -9,3 +9,7 @@ cl_demo_output=>display_html(
             |Hello **abapGit bunkai new version(BRANCH1)_tag added**!\n\n|
          && |Hello Weinheim!|
          && |Hello World!| ) ).
+
+**--Display output
+cl_demo_output=>display('please review my code review').
+
