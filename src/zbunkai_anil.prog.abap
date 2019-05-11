@@ -7,7 +7,6 @@ REPORT ZBUNKAI_ANIL.
 *&---------------------------------------------------------------------*
 *& Report zbunkai_christian
 
-tables: t000.
 
 
 cl_demo_output=>display_html(
@@ -16,5 +15,4 @@ cl_demo_output=>display_html(
          && |Hello Weinheim!|
          && |Hello World!| ) ).
 
-select * from t000.
-endselect.
+do until forever.
